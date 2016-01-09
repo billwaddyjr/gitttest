@@ -1,0 +1,16 @@
+composer require laracasts/generators --dev
+
+git add README.md
+git commit -m "updated readme file for better description"
+git log
+git status
+git push -u origin master
+git status
+git add .
+git commit -m "test file text is added as a test"
+git log
+git status
+git push
+git pull origin master
+
+
